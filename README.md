@@ -18,7 +18,6 @@ DARDN is cancer-type agnostic and can easily be adapted to other cancer types. W
 
 ## How to get started with DARDN using provided data
 - Clone this repository.
-- Download `High-confidence CTCF binding sites` and `Union of all CTCF binding sites (688,429)` from [here](https://zanglab.github.io/data/cancerCTCF/#download) and save them as `T-ALL_binding_features.csv` and `union_binding_occupancy_score_GT3.csv` respectively. Make sure they are placed into the cloned directory.
 - Download sample data `chr1_len5045.npz` [here](https://drive.google.com/file/d/1OVzRNC-hGlhHBC90V62-6Hf6G3Jx5ytP/view?usp=sharing). This file contains 26009 CTCF-centered sites, each with length 10090.
 - Simply run `python run_model.py` to run on the provided sample data and parameters. Otherwise, modify `load_data.py` as needed to load the desired input data to train DARDN. To modify subsequence selection from gained CTCF sites, modify parameters in `extract_subsequences.py`.
 
