@@ -67,3 +67,4 @@ findMotifsGenome.pl /path/to/subsequences.txt hg38 /path/to/save_dir/ -size 200
 ## Citation
 If you use any data from this website, please cite:
 
+Cho HJ, Wang Z, Cong Y, Bekiranov S, Zhang A, Zang C. DARDN: A Deep-Learning Approach for CTCF Binding Sequence Classification and Oncogenic Regulatory Feature Discovery. Genes. 2024; 15(2):144. https://doi.org/10.3390/genes15020144
